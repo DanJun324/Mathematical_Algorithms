@@ -87,7 +87,7 @@ try
 
     loss(m, x, y) = Flux.Losses.logitcrossentropy(m(x), y)
 
-    learning_rate = 0.5
+    learning_rate = 0.8
     momentum_rate = 0.9
 
     opt = Flux.Optimisers.Momentum(learning_rate, momentum_rate)
